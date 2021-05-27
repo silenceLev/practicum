@@ -4,7 +4,7 @@ def print_shopping_list(dish1, dish2):
     shopping_list = set(dish1).union(set(dish2))
     for product in shopping_list:
         if shopping_list[product] in dish1 or dish2:
-            print(shopping_list.add(dish1, dish2))
+#             TODO
 
 
 
